@@ -1,0 +1,8 @@
+{
+  "name": "Pinokio",
+  "description": "AI Browser and Autonomous Script Engine for running, installing, and managing AI models and applications.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -14,7 +14,8 @@ module.exports = {
   portal: "https://pinokio.co",
   docs: "https://pinokio.co/docs",
   install: "https://pinokiocomputer.github.io/program.pinokio.computer/#/?id=install",
-  agent: "electron",
+  agent: process.env.PINOKIO_AGENT || "web",
+  port: parseInt(process.env.PORT || '3000', 10),
   version: packagejson.version,
   store
 }
